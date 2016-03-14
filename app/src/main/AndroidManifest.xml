@@ -4,9 +4,7 @@
 	android:versionCode="16"
 	android:versionName="0.151" >
 
-	<uses-sdk
-		android:minSdkVersion="15"
-		android:targetSdkVersion="17" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 	<uses-permission android:name="android.permission.BLUETOOTH"/>
 	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
 	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
